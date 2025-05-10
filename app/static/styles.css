@@ -1,0 +1,47 @@
+/* static/styles.css */
+
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin-top: 50px;
+}
+
+.header-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.summary-box {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.upload-section {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.spinner {
+  display: none;
+  margin-top: 20px;
+}
+
+.btn-primary {
+  background-color: #ff3c3c;
+  border: none;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
