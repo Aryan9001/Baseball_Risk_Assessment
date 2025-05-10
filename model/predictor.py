@@ -6,7 +6,8 @@ from dataset.label_mapper import int_to_label
 from config import MODEL_PATH
 
 def load_model():
-    return tf.keras.models.load_model("C:/Users/ASUS/Desktop/Pose_estimation/Baseball_Player_Tracking/injury_classifier_model.h5")
+# NEW (relative path)
+    return tf.keras.models.load_model("model/injury_classifier_model.h5")
 
 def predict_pose_risk(model, features):
     prediction = model.predict(np.array([features]))
