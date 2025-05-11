@@ -1,8 +1,7 @@
-flask
+streamlit
 mediapipe
 opencv-python
 tensorflow
 pandas
 numpy
 scikit-learn
-gunicorn
